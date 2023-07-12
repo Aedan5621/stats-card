@@ -5,6 +5,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 15px;
+  overflow: hidden;
 }
 
 h3 {
@@ -102,6 +103,7 @@ body {
   body {
     text-align: center;
     font-size: 15px;
+    overflow: scroll;
   }
 
   .wrapper {
