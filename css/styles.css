@@ -94,7 +94,7 @@ body {
   opacity: 0.5;
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 768px) {
   body {
     text-align: center;
     font-size: 15px;
