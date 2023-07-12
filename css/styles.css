@@ -11,6 +11,7 @@ h3 {
   font-family: "Inter";
   font-weight: 700;
   color: hsl(0, 0%, 100%);
+  font-size: 25px;
 }
 
 p {
@@ -59,6 +60,7 @@ body {
 
 .text {
   padding: 12%;
+  width: 60%;
 }
 
 .main-p {
@@ -95,7 +97,7 @@ body {
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
-   body {
+  body {
     text-align: center;
     font-size: 15px;
   }
@@ -110,6 +112,7 @@ body {
 
   .text {
     padding: 6%;
+    width: auto;
   }
 
   .main-heading {
