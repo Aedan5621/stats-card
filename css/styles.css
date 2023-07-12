@@ -95,13 +95,11 @@ body {
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
-  body {
+   body {
     text-align: center;
     font-size: 15px;
   }
-.container {
-  width: 85%;
-}
+
   .wrapper {
     grid-template-columns: 1fr;
   }
@@ -125,5 +123,13 @@ body {
 
   .items {
     margin: 20px;
+  }
+
+.items p {
+  margin: 5px;
+}
+
+  h3 {
+    margin: 0;
   }
 }
